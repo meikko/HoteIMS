@@ -1,0 +1,8 @@
+
+
+#col_l div,#col_m div,#col_n div,#col_r div{ padding:1px; border:1px solid #81B3E6; margin-bottom:5px; position:relative;}
+#col_l{width:100%; text-align:center;}
+#col_l div{width:98%; margin:0 auto; margin-bottom:5px;}
+#col_m{width:100%; text-align:center;}
+#col_m div{ float:left; width:23%; margin-left:1%;} 
+#col_r{}

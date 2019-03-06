@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>我的办公桌</title>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312" />
+<link href="css/body_pic.css" rel="stylesheet" type="text/css"
+	media="screen" />
+<link rel="alternate stylesheet" href="css/red.css" type="text/css"
+	title="red" media="screen, projection" />
+<link rel="stylesheet" href="css/green.css" type="text/css"
+	title="green" media="screen, projection" />
+<link rel="alternate stylesheet" href="css/yellow.css" type="text/css"
+	title="yellow" media="screen, projection" />
+<script language="javascript" src="js/menu.js"></script>
+<script language="javascript" src="js/skin.js"></script>
+</head>
+
+<body>
+	<table width="192" height="100%" border="0" cellspacing="0"
+		cellpadding="0">
+		<tr>
+			<td height="100%"><iframe name="frameColumnNav"
+					id="frameColumnNav"
+					style="WIDTH: 100%; HEIGHT: 100%; min-height: 100%;" border=0
+					src="IFRleft1.html" frameborder=0></iframe></td>
+		</tr>
+		<tr>
+			<td valign="top"><div align="center"></div>
+				<div id=divNav>
+					<table width="192" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td onClick="menu_onclick('1')" align="center"><a id="menu1"
+								href="IFRleft1.html" target="frameColumnNav" class="menu1">
+									入住与预定</a></td>
+						</tr>
+						<tr>
+							<td onClick="menu_onclick('2')" align="center"><a id="menu2"
+								href="IFRleft3.html" target="frameColumnNav" class="menu2">&nbsp;基础信息管理</a></td>
+						</tr>
+						<tr>
+							<td onClick="menu_onclick('3')" align="center"><a id="menu3"
+								href="IFRleft2.html" target="frameColumnNav" class="menu3">系统管理</a></td>
+						</tr>
+					</table>
+				</div>
+				<div id="divNavIndex" style="display: none">
+					<table border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td height="34" align="center" valign="bottom"
+								class="menu_line_bg"><a href="IFRleft1.html"
+								target="frameColumnNav"><img id="menu_line_img1"
+									onClick="menu_onclick(1)" onMouseOver="menu_over('1')"
+									onMouseOut="menu_out('1')" src="images/menu_line_bt_img1_1.gif"
+									width="27" height="29" border="0" title="个人办公" /></a>							
+									<a 
+									href="IFRleft3.html"
+								target="frameColumnNav"><img id="menu_line_img3"
+									onClick="menu_onclick(3)" onMouseOver="menu_over('3')"
+									onMouseOut="menu_out('3')" src="images/menu_line_bt_img3_1.gif"
+									width="27" height="29" border="0" title="后台管理" /></a>								
+									<a
+								href="IFRleft2.html" target="frameColumnNav"><img
+									id="menu_line_img2" onClick="menu_onclick(2)"
+									onMouseOver="menu_over('2')" onMouseOut="menu_out('2')"
+									src="images/menu_line_bt_img2_1.gif" width="27" height="29"
+									border="0" title="酒店管理" /></a>
+								</td>	
+									
+						</tr>
+					</table>
+				</div></td>
+		</tr>
+		<tr>
+			<td class="menu_btnsz_bg"><table width="139" border="0"
+					cellspacing="0" cellpadding="0">
+					<tr>
+						<td width="25" align="center"><img src="images/zxh_logo.gif"
+							width="15" height="13" /></td>
+						<td><a id=title1 onclick=changeNav(); href="#" name=title1
+							class="font_menu">最小化</a></td>
+						<td width="25" align="center"><img src="images/sz_logo.gif"
+							width="13" height="13" /></td>
+						<td><a href="option.html" target="mainFramert"
+							class="font_menu">设&nbsp; 置</a></td>
+					</tr>
+				</table></td>
+		</tr>
+		<tr>
+			<td class="Version">&nbsp;</td>
+		</tr>
+	</table>
+
+</body>
+<script type="text/javascript">
+var _onclickedid = "1";
+getObject("menu" + _onclickedid).className="menu" + _onclickedid + "_clicked";
+getObject("menu_line_img"+_onclickedid).src="images/menu_line_bt_img" + _onclickedid + ".gif";
+function menu_onclick(id)
+{
+	document.getElementById("menu_line_img"+ _onclickedid).src="images/menu_line_bt_img"+ _onclickedid +"_1.gif";
+	getObject("menu" + _onclickedid).className="menu" + _onclickedid;
+	_onclickedid = id;
+	document.getElementById("menu_line_img"+ id).src="images/menu_line_bt_img"+ id +".gif";
+	getObject("menu" + id).className="menu" + id + "_clicked";
+}
+function menu_over(id)
+{
+	if (_onclickedid == id)
+		return;
+	document.getElementById("menu_line_img"+ id).src="images/menu_line_bt_img"+ id +".gif";
+}
+function menu_out(id)
+{
+	if (_onclickedid == id)
+		return;
+	document.getElementById("menu_line_img"+ id).src="images/menu_line_bt_img"+ id +"_1.gif";
+}
+</script>
+
+</html>

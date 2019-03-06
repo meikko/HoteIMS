@@ -1,0 +1,352 @@
+body{ margin:0px; padding:0px; color:#000000;SCROLLBAR-FACE-COLOR: #eeeeee; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #b4b4b4; SCROLLBAR-3DLIGHT-COLOR: #b4b4b4; SCROLLBAR-ARROW-COLOR: #333333; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; SCROLLBAR-BASE-COLOR: #eeeeee} /*定义滚动条样式*/
+button{cursor:pointer;}/*定义鼠标放到按钮上出现小手的图标*/
+td{ font-size:12px; padding:0px; margin:0px;}/* 全局定义td的字体 */
+div{ font-size:12px;margin-bottom:5px;}/* 全局定义div中的字体 */
+.button_Properties{border:none;padding-left:12px;padding-top:2px;font-size:12px;color:#000000; height:23px;}/* 页面头部按钮的通用属性 控制按钮文字的位置 颜色高度 */
+.button_Properties1{height:24px;width:56px;border:none;padding-left:20px;font-size:12px;}/* 列表页 按钮的通用属性 控制按钮文字的位置 颜色高度 */
+
+/* 顶部右侧表格样式 开始*/
+.top_right_table1_1{width:300px;color:#FFFFFF;line-height:15px;}/* 第一行表格 字体颜色 行高 */
+.top_right_table1_tr2{text-align:right;color:#D7F9F3;height:30px;}/* 表格第二行 右对齐 颜色 高度 */
+/* 顶部右侧表格样式 结束 */
+
+/*.main_table1{width:100%;} 暂废弃 */
+
+/* 列表页 列表表格样式 开始*/
+.list1_main{height:150px;text-align:center;}/*高150 内容居中对齐*/
+.list1_list1{background:#CFCFCF;margin-top:4px;}/*背景颜色 上边距*/
+/*.list1_list1_tr{text-align:center;} 整行内容居中 咱废弃 */
+.list1_list1_td{background:#FFFFFF;}/* 表格TD背景 */
+.list1_top_button{width:250px;text-align:right;} /* 顶部右侧按钮表格 宽度 内容右对齐 */
+.list1_bottom_pages_input{font-size:12px;height:12px;}/* 数据页码转向 按钮 字体大小 高度 */
+/*列表页 列表表格样式 结束*/
+
+.table100{ width:100%}/* 表格通用CSS 定义表格100%宽度 */
+.marcen{ margin:0px auto;}/* 控制div或table水平居中 */
+#col_n div{ padding:1px; border:1px solid #81B3E6; margin-bottom:5px; position:relative;}/*首页中col_n这个div下所有div的边框，局底5像素 */ 
+#divNav span{ margin-left:35px;}/*一级菜单文字的位置 */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+font{color:#000000; font-size:12px;}/* 设置font标记中文字的颜色 与 字体大小 */
+
+/* .menu1,.menu2,.menu3,.menu4,.menu5,.menu6,.menu7 为左面框架中垂直菜单样式 hover位鼠标经过样式 clicked为点击后的样式*/
+.menu1,.menu2,.menu3,.menu4,.menu5,.menu6,.menu7{height:29px; display:block; font-size:12px; color:#FFFFFF; text-decoration:none; line-height:29px;}
+.menu1,.menu1:link,.menu1:visited,.menu1:hover{ background:url(../images_black/menu1_bg.jpg) top center; }
+.menu1:hover{background:url(../images_black/menu1_bg2.jpg);color:#024C97; text-decoration:underline;}
+.menu1_clicked{height:29px; display:block; font-size:12px; color:#FFFFFF; text-decoration:none; line-height:29px;background:url(../images_black/menu1_bg2.jpg);color:#024C97; text-decoration:none;}
+.menu2,.menu2:link,.menu2:visited,.menu2:hover{ background:url(../images_black/menu2_bg.jpg);}
+.menu2:hover{background:url(../images_black/menu2_bg2.jpg);color:#024C97; text-decoration:underline;}
+.menu2_clicked{height:29px; display:block; font-size:12px; color:#FFFFFF; text-decoration:none; line-height:29px;background:url(../images_black/menu2_bg2.jpg);color:#024C97; text-decoration:none;}
+.menu3,.menu3:link,.menu3:visited,.menu3:hover{ background:url(../images_black/menu3_bg.jpg); }
+.menu3:hover{background:url(../images_black/menu3_bg2.jpg);color:#024C97; text-decoration:underline;}
+.menu3_clicked{height:29px; display:block; font-size:12px; color:#FFFFFF; text-decoration:none; line-height:29px;background:url(../images_black/menu3_bg2.jpg);color:#024C97; text-decoration:none;}
+.menu4,.menu4:link,.menu4:visited,.menu4:hover{ background:url(../images_black/menu4_bg.jpg); }
+.menu4:hover{background:url(../images_black/menu4_bg2.jpg);color:#024C97; text-decoration:underline;}
+.menu4_clicked{height:29px; display:block; font-size:12px; color:#FFFFFF; text-decoration:none; line-height:29px;background:url(../images_black/menu4_bg2.jpg);color:#024C97; text-decoration:none;}
+.menu5,.menu5:link,.menu5:visited,.menu5:hover{ background:url(../images_black/menu5_bg.jpg);}
+.menu5:hover{background:url(../images_black/menu5_bg2.jpg);color:#024C97; text-decoration:underline;}
+.menu5_clicked{height:29px; display:block; font-size:12px; color:#FFFFFF; text-decoration:none; line-height:29px;background:url(../images_black/menu5_bg2.jpg);color:#024C97; text-decoration:none;}
+.menu6,.menu6:link,.menu6:visited,.menu6:hover{ background:url(../images_black/menu6_bg.jpg);}
+.menu6:hover{background:url(../images_black/menu6_bg2.jpg);color:#024C97; text-decoration:underline;}
+.menu6_clicked{height:29px; display:block; font-size:12px; color:#FFFFFF; text-decoration:none; line-height:29px;background:url(../images_black/menu6_bg2.jpg);color:#024C97; text-decoration:none;}
+.menu7,.menu7:link,.menu7:visited,.menu7:hover{ background:url(../images_black/menu7_bg.jpg);}
+.menu7:hover{background:url(../images_black/menu7_bg2.jpg);color:#024C97; text-decoration:underline;}
+.menu7_clicked{height:29px; display:block; font-size:12px; color:#FFFFFF; text-decoration:none; line-height:29px;background:url(../images_black/menu7_bg2.jpg);color:#024C97; text-decoration:none;}
+
+/* 左侧框架中底部 最小化 和 设置 文字的样式 */
+.font_menu,.font_menu:link,.font_menu:visited,.font_menu:hover{ color:#000000; text-decoration:none;}
+.font_menu:hover{ text-decoration:underline;}
+/* 当前用户处文字的样式 */
+.Current{ color:#042E69; text-decoration:none}
+.Current a:link{ color:#042E69; text-decoration:none}
+.Current a:visited{ color:#042E69; text-decoration:none}
+.Current a:hover{ color:#000000; text-decoration:underline}
+/* 设置页面首页中 右面框架中 文字的高度 */
+.freamtr_main_headmiddlebg td{ line-height:20px;}
+/* 下午好，欢迎登录立科BS系统软件 文字样式*/
+.font_welcome{ font-size:12px; font-weight:bold; color:#4E504F;}
+/*提示：系统已经全面升级，你现在正在使用的是全新“BS系统1.0”版本，如果有任何疑问， 请致电立科信息工程有限公司 文字样式*/
+.font_hui{ color:#959696}
+/* 列表页中 公告通知等 一竖列频道中数据的文字样式 */
+.Data,.Data:link,.Data:visited,.Data:hover{ color:#969696; line-height:19px; text-decoration:none}
+.Data:hover{ color:#000000;text-decoration:underline}
+/* 左侧框架中2级频道 中栏目文字样式 文字颜色 背景图片 高度 宽度 */
+.Column,.Column:link,.Column:visited,.Column1,.Column1:link,.Column1:visited{ display:block; color:#000000; background:url(../images_black/Column_bg.jpg) left top no-repeat; height:23px; text-align:left; text-decoration:none}
+.Column:hover{ display:block; color:#000000; background:url(../images_black/Column_bg2.jpg) left top no-repeat;  height:23px; text-align:left;}
+/* 左侧框架中2级频道中栏目文字的位置 */
+.Column table{ cursor:pointer;  margin-left:30px; }
+.Column table td{ height:23px; line-height:23px; margin-right:5px; }
+.Column1:hover{ display:block; color:#000000; background:url(../images_black/Column_bg2_1.jpg) left top no-repeat; width:176px; height:23px; text-align:right; text-decoration:none}
+.Column1 span{ display:block; width:145px; text-align:left; line-height:23px; float:left; cursor:pointer; text-decoration:none; white-space: nowrap; margin-left:15px; }
+.Column2,.Column2:link,.Column2:visited{ display:block; color:#000000; background:url(../images_black/Column_2bg.jpg) left top no-repeat; height:23px; text-align:left; text-decoration:none;padding-left:45px; line-height:23px;white-space: nowrap; padding-right:10px;}
+.Column2:hover{ display:block; color:#000000; background:url(../images_black/Column_2bg1.jpg) left top no-repeat; height:23px; text-align:left; text-decoration:none; padding-left:45px;line-height:23px;white-space: nowrap;padding-right:10px;}
+/* 页码链接 字体大小 颜色 无下划线*/
+.list1_bottom_pages_links,.list1_bottom_pages_links:link,.list1_bottom_pages_links:visited{
+	font-size:12px;
+	color:#000100;
+	text-decoration:none;
+}
+/* 页码链接鼠标经过样式 字体大小 颜色 无下划线*/
+.list1_bottom_pages_links:hover{font-size:12px;color:#000100;text-decoration:underline;
+}
+
+/* 定义左侧2级和3级菜单垂直间距 */
+.marbtn{ margin-bottom:6px;}
+
+/* 设置选择表格样式 开始 */
+/* 设置选择表格 边距 内容水平居中 */
+.option_selectcss {
+	margin:10px auto;
+	text-align:center;
+}
+/* 按钮表格 边距 */
+.option_button_table{margin:0 auto;margin-top:30px}
+/* 按钮 宽高 边框 填充 */
+.option_button{
+	height:25px;
+	width:80px;
+	border:none;
+	padding-top:2px;
+	padding-left:10px;
+}
+/* 左侧菜单中 栏目名称右面的箭头 */
+.Column_font{ background:url(../images_black/logo1.gif) center center no-repeat; padding:0px 10px;}
+/* 控制菜单文字强行在一行显示文字 */
+.nowrap{white-space: nowrap; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 定义功能导航图片的背景 */
+.gndh{ width:192px; height:40px; background:url(../images_black/gndh_bg.jpg) left top no-repeat;}
+/* 保存按钮 背景 */
+.option_button_save{
+	background:url(../images_black/option_save_img1.gif) no-repeat;
+}
+/* 取消按钮 背景 */
+.option_button_reset{
+	background:url(../images_black/option_reset_img1.gif) no-repeat;
+}
+/* 设置选择表格样式 结束 */
+
+/* 列表页样式 开始 */
+
+/* 页码转向链接按钮 背景 宽高 无下划线 填充 颜色*/
+.list1_bottom_pages_goto_link,.list1_bottom_pages_goto_link:link,.list1_bottom_pages_goto_link:visited{
+	background:url(../images_black/goto_img1.gif) no-repeat;
+	height:15px;
+	width:37px;
+	text-decoration:none;
+	display:block;
+	padding-left:12px;
+	padding-top:2px;
+	color:#000000;
+}
+/* 页码转向链接按钮鼠标经过样式 背景 宽高 无下划线 填充 颜色*/
+.list1_bottom_pages_goto_link:hover{background:url(../images_black/goto_img1.gif) no-repeat;height:15px;width:37px;text-decoration:none;display:block;padding-left:12px;padding-top:2px;color:#006600;
+}
+/* 列表页样式 结束 */
+/* 列表页中用于控制 右面公告通知等频道 显示隐藏的按钮 */
+.fream_btn{ background:url(../images_black/fream_btn.gif) left top no-repeat; width:8px; height:121px; margin-top:40px; cursor:pointer}
+/* 菜单隐藏起来 显示的图标菜单 这里控制的背景图片*/
+.menu_line_bg{ background:url(../images_black/menu_line_bg2.jpg) left top no-repeat; height:34px; width:192px; }
+/* 最小化 和 设置的背景图片 */
+.menu_btnsz_bg{ background:url(../images_black/menu_btnsz_bg.jpg) left top no-repeat; height:27px; text-align:center}
+/* 软件左下角的版本图片 */
+.Version{ background:url(../images_black/Version.jpg) left top no-repeat; height:15px;}
+/* 控制显示隐藏左部框架按钮的背景 */
+.fream_middle_img{ background:url(../images_black/fream_middle_bg.jpg) left top repeat-y}
+/* 顶部样式 开始*/
+/* 左侧TD 宽 背景 */
+.top_left{width:478px;background:url(../images_black/top_left.jpg) left top no-repeat;}
+/* 表格背景图X轴平铺 */
+.top_x{background:url(../images_black/top_x.jpg) repeat-x;}
+/* 右侧第一行表格第一个TD 背景 填充 */
+.top_right_table1_td1{background:url(../images_black/time_img1.gif) no-repeat;padding-left:20px;}
+/* 右侧第一行表格第二个TD 背景 填充 */
+.top_right_table1_td2{background:url(../images_black/help_img1.gif) no-repeat;padding-left:20px;}
+/* 右侧第一行表格第三个TD 背景 填充 */
+.top_right_table1_td3{background: url(../images_black/skins.gif) no-repeat;padding-left:20px;}
+/* 右侧首页按钮 背景 宽 */
+.button_index{background:url(../images_black/index_img1.gif) no-repeat;width:51px;}
+/* 右侧刷新按钮 背景 宽 */
+.button_refresh{width:51px;background: url(../images_black/refresh.gif) no-repeat;}
+/* 右侧修改个人信息按钮 背景 宽 */
+.button_user{width:103px;background: url(../images_black/user_img1.gif) no-repeat;}
+/* 右侧皮肤选择按钮 背景 宽 */
+.button_skins{width:83px;background: url(../images_black/skins_img1.gif) no-repeat;}
+/* 右侧退出按钮 背景 宽 */
+.button_quit{width:54px;background: url(../images_black/quit_img1.gif) no-repeat;}
+/* 右侧皮肤选择按钮 背景 宽 */
+/* 顶部样式 结束*/
+
+/* 底部框架页 开始*/
+/* 底部框架页 背景X平铺*/
+.bottom_x{background:url(../images_black/bottom_x.jpg ) left  top repeat-x; height:26px; }
+/* 底部框架页 结束*/
+.Current{ background:url(../images_black/freamtr_Current_bg.jpg) left top repeat-x;}
+/* 当前用户左面的logo图标*/
+.Current_logo{ width:27px; height:31px; background:url(../images_black/Current_logo.jpg) center center no-repeat;}
+/* 首页右侧功能区 频道名称左面的箭头图片 */
+.freamtr_main_headimg{ background:url(../images_black/freamtr_main_headimg.jpg) left top no-repeat; width:29px; height:24px;}
+/* 首页右侧功能区 频道名称背景图片 */
+.table_head{ background:url(../images_black/freamtr_main_headbg.jpg) left top repeat-x; color:#000000;cursor:move;}
+/* 首页右侧功能区 频道名称右面的 圆角背景图 */
+.freamtr_main_headright{ background:url(../images_black/freamtr_main_headright.jpg) left top no-repeat; width:10px;}
+/* 首页右侧功能区 数据列表居右的背景 */
+.freamtr_main_headmiddlebg{ background:url(../images_black/freamtr_main_headmiddlebg.jpg) right top repeat-y;}
+/* 首页右侧功能区 数据列表底部右侧的圆角背景图 */
+.freamtr_main_headbtnrightim{ background:url(../images_black/freamtr_main_headbtnrightim.jpg) left top no-repeat; width:9px; height:5px; line-height:5px;}
+/* 首页右侧功能区 数据列表底部背景图 */
+.freamtr_main_headbtnrightbg{ background:url(../images_black/freamtr_main_headbtnrightbg.jpg) left top repeat-x; height:5px; line-height:5px;}
+/* 列表页样式 开始 */
+/* 容器顶部 背景X平铺 */
+.list1_box1_top{background:url(../images_black/list1_box1_top_x.gif) repeat-x;}
+/* 容器顶部左侧 背景 宽高 颜色 填充 字体粗体 */
+.list1_box1_top_left{background:url(../images_black/list1_box1_top_left.gif) no-repeat;height:30px;width:113px;color:#000100;padding-left:40px;font-weight:bold;}
+/* 容器顶部右侧 背景 宽 */
+.list1_box1_top_right{background:url(../images_black/list1_box1_top_right.gif) no-repeat right bottom;width:5px;}
+/* 容器主体表格左侧 背景 宽高 */
+.list1_box1_main_left{background:url(../images_black/list1_box1_main_left.gif) repeat-y;height:150px;width:4px;}
+/* 容器主体右侧 背景 宽 */
+.list1_box1_main_right{background:url(../images_black/list1_box1_main_right.gif) repeat-y right;width:4px;}
+/* 容器底部表格 背景X平铺 */
+.list1_box1_bottom{background:url(../images_black/list1_box1_bottom_x.gif) repeat-x;}
+/* 容器底部表格左侧 背景 宽高 */
+.list1_box1_bottom_left{background:url(../images_black/list1_box1_bottom_left.gif) no-repeat;height:5px;width:5px;}
+/* 容器底部表格右侧 背景 宽 */
+.list1_box1_bottom_right{background:url(../images_black/list1_box1_bottom_right.gif) no-repeat;width:5px;}
+/* 列表容器顶部 背景X平铺 */
+.list1_top{background:url(../images_black/list1_top_x.gif) repeat-x;margin-top:10px;}
+/* 列表容器顶部TD1(左侧) 背景 宽高 填充 字体粗体*/
+.list1_top_tr1_td1{background:url(../images_black/list1_top_left.gif) no-repeat;width: 90px;height:33px;padding-left: 33px;font-weight: bold;}
+/* 列表容器顶部TD3(右侧) 背景 宽 */
+.list1_top_tr1_td3{background:url(../images_black/list1_top_right.gif) right no-repeat;width:3px;}
+/* 列表容器主体TD1(左侧) 背景y轴平铺 宽 */
+.list1_main_td1{background:url(../images_black/list1_main_left_y.gif) repeat-y;width:4px}
+/* 列表容器主体TD2(右侧) 背景y轴平铺 宽 */
+.list1_main_td3{background:url(../images_black/list1_main_right_y.gif) right repeat-y;width:4px}
+/* 列表表格顶部 背景x轴平铺 高 内容水平居中对齐 */
+.list1_list1_top{background:url(../images_black/list1_list1_top_bg_x.gif) repeat-x;height:23px;text-align:center;}
+/* 列表表格底部 背景x轴平铺 下边距 */
+.list1_bottom{background:url(../images_black/list1_bottom_x.gif) bottom repeat-x;margin-bottom:10px;}
+/* 列表表格底部TD1(左侧) 背景 宽高 填充 字体粗体 */
+.list1_bottom_tr1_td1{background:url(../images_black/list1_bottom_left.gif) no-repeat;width: 90px;height:34px;padding-left: 34px;font-weight: bold;}
+/* 列表表格底部TD3(右侧) 背景 宽 */
+.list1_bottom_tr1_td3{background:url(../images_black/list1_bottom_right.gif) right no-repeat;width:3px;}
+/* 列表表格编辑按钮 背景 颜色 */
+.list1_top_edit{background:url(../images_black/list1_edit_img1.gif) no-repeat;color:#000100;	}
+/* 列表表格编辑按钮(鼠标经过) 背景 颜色 */
+.list1_top_edit2{background:url(../images_black/list1_edit_img1.gif) no-repeat;color:#009900;}
+/* 列表表格刷新按钮 背景 颜色 */
+.list1_top_refresh{background: url(../images_black/list1_refresh_img1.gif) no-repeat;color:#000100;}
+/* 列表表格退出按钮 背景 颜色 */
+.list1_top_quit{background:url(../images_black/list1_quit_img1.gif) no-repeat;color:#000100;}
+/* 列表表格删除按钮 背景 颜色 */
+.list1_top_del{background: url(../images_black/list1_del_img1.gif) no-repeat;color:#000100;}
+/* 列表页样式 结束 */
+.displa{ height:18px; width:18px; float:right; margin-right:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#divNavIndex img{ border:0px;}
+.menu_btnsz_bg table{ margin:0px auto;}
+.top_table{height:83px; width:100%;}
+.top_right_table1_3{width:100%;}
+.top_right_table1{margin-right:5px;}
+.bottom_table{ width:100%;}	
+.bottom_C{margin:auto auto; margin-top:8px; text-align:center; width:100%}
+
+
+
+/*文字省略号
+.Data1,.Data1:link,.Data1:visited,.Data1:hover{ color:#7294BA; line-height:19px; text-decoration:none;display: block;
+overflow: hidden; width:130px;
+white-space: nowrap;
+-o-text-overflow: ellipsis;
+text-overflow: ellipsis;}
+.Data1:hover{ color:#315781;text-decoration:underline;display: block; width:130px;
+overflow: hidden;
+white-space: nowrap;
+-o-text-overflow: ellipsis;
+text-overflow: ellipsis;}
+col_n td:not(p) { 
+clear: both;
+}
+col_n td:not(p) Data1 {
+max-width: 20px;
+float: left;
+}
+col_n td:not(p):after {
+content: "...";
+float: left;
+width: 30px;
+color: #000;
+}
+*/
+

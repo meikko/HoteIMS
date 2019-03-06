@@ -1,0 +1,4 @@
+#col_l div,#col_m div,#col_n div,#col_r div{ padding:1px; border:1px solid #81B3E6; margin-bottom:5px; position:relative;}
+#col_l{ float:left; width:48%; margin:0px 5px;}
+#col_m{ float:left; width:48%; } 
+#col_r{}
